@@ -1,0 +1,2221 @@
+2025-07-14 16:16:19,394 WARNING Missing alert env keys: ALERTS_SMTP_SERVER, ALERTS_SMTP_PORT, ALERTS_SMTP_USER, ALERTS_SMTP_PASS, ALERTS_EMAIL_TO
+2025-07-14 16:16:19,403 INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-14 16:16:19,403 INFO Scheduler started – every 30 min (Ctrl\u2011C to exit)
+2025-07-14 16:16:19,768 INFO Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-07-14 16:16:19,768 INFO NumExpr defaulting to 8 threads.
+2025-07-14 16:16:20,400 INFO Downloading chromedriver (138.0.7204.94)...
+2025-07-14 16:16:21,672 INFO Scraping flights from TLV to ANY from 2025-08-01 to 2025-08-08...
+2025-07-14 16:16:21,672 ERROR Failed to scrape Google Flights for 2025-08-01: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:16:23,677 INFO Scraping flights from TLV to ANY from 2025-08-02 to 2025-08-09...
+2025-07-14 16:16:23,677 ERROR Failed to scrape Google Flights for 2025-08-02: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:16:25,678 INFO Scraping flights from TLV to ANY from 2025-08-03 to 2025-08-10...
+2025-07-14 16:16:25,678 ERROR Failed to scrape Google Flights for 2025-08-03: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:16:27,679 INFO Scraping flights from TLV to ANY from 2025-08-04 to 2025-08-11...
+2025-07-14 16:16:27,679 ERROR Failed to scrape Google Flights for 2025-08-04: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:16:29,680 INFO Scraping flights from TLV to ANY from 2025-08-05 to 2025-08-12...
+2025-07-14 16:16:29,680 ERROR Failed to scrape Google Flights for 2025-08-05: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:16:31,681 INFO Scraping flights from TLV to ANY from 2025-08-06 to 2025-08-13...
+2025-07-14 16:16:31,681 ERROR Failed to scrape Google Flights for 2025-08-06: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:16:33,682 INFO Scraping flights from TLV to ANY from 2025-08-07 to 2025-08-14...
+2025-07-14 16:16:33,682 ERROR Failed to scrape Google Flights for 2025-08-07: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:16:35,683 INFO Scraping flights from TLV to ANY from 2025-08-08 to 2025-08-15...
+2025-07-14 16:16:35,683 ERROR Failed to scrape Google Flights for 2025-08-08: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:16:37,684 INFO Scraping flights from TLV to ANY from 2025-08-09 to 2025-08-16...
+2025-07-14 16:16:37,684 ERROR Failed to scrape Google Flights for 2025-08-09: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:16:39,685 INFO Scraping flights from TLV to ANY from 2025-08-10 to 2025-08-17...
+2025-07-14 16:16:39,685 ERROR Failed to scrape Google Flights for 2025-08-10: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:16:41,686 INFO Scraping flights from TLV to ANY from 2025-08-11 to 2025-08-18...
+2025-07-14 16:16:41,686 ERROR Failed to scrape Google Flights for 2025-08-11: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:16:43,687 INFO Scraping flights from TLV to ANY from 2025-08-12 to 2025-08-19...
+2025-07-14 16:16:43,687 ERROR Failed to scrape Google Flights for 2025-08-12: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:16:45,688 INFO Scraping flights from TLV to ANY from 2025-08-13 to 2025-08-20...
+2025-07-14 16:16:45,688 ERROR Failed to scrape Google Flights for 2025-08-13: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:16:47,689 INFO Scraping flights from TLV to ANY from 2025-08-14 to 2025-08-21...
+2025-07-14 16:16:47,689 ERROR Failed to scrape Google Flights for 2025-08-14: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:16:49,690 INFO Scraping flights from TLV to ANY from 2025-08-15 to 2025-08-22...
+2025-07-14 16:16:49,690 ERROR Failed to scrape Google Flights for 2025-08-15: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:16:51,691 INFO Scraping flights from TLV to ANY from 2025-08-16 to 2025-08-23...
+2025-07-14 16:16:51,691 ERROR Failed to scrape Google Flights for 2025-08-16: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:16:53,692 INFO Scraping flights from TLV to ANY from 2025-08-17 to 2025-08-24...
+2025-07-14 16:16:53,692 ERROR Failed to scrape Google Flights for 2025-08-17: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:16:55,693 INFO Scraping flights from TLV to ANY from 2025-08-18 to 2025-08-25...
+2025-07-14 16:16:55,693 ERROR Failed to scrape Google Flights for 2025-08-18: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:16:57,695 INFO Scraping flights from TLV to ANY from 2025-08-19 to 2025-08-26...
+2025-07-14 16:16:57,695 ERROR Failed to scrape Google Flights for 2025-08-19: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:16:59,695 INFO Scraping flights from TLV to ANY from 2025-08-20 to 2025-08-27...
+2025-07-14 16:16:59,695 ERROR Failed to scrape Google Flights for 2025-08-20: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:17:01,696 INFO Scraping flights from TLV to ANY from 2025-08-21 to 2025-08-28...
+2025-07-14 16:17:01,696 ERROR Failed to scrape Google Flights for 2025-08-21: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:17:03,697 INFO Scraping flights from TLV to ANY from 2025-08-22 to 2025-08-29...
+2025-07-14 16:17:03,697 ERROR Failed to scrape Google Flights for 2025-08-22: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:17:05,698 INFO Scraping flights from TLV to ANY from 2025-08-23 to 2025-08-30...
+2025-07-14 16:17:05,698 ERROR Failed to scrape Google Flights for 2025-08-23: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:17:07,699 INFO Scraping flights from TLV to ANY from 2025-08-24 to 2025-08-31...
+2025-07-14 16:17:07,699 ERROR Failed to scrape Google Flights for 2025-08-24: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:17:09,701 INFO Scraping flights from TLV to ANY from 2025-08-25 to 2025-09-01...
+2025-07-14 16:17:09,701 ERROR Failed to scrape Google Flights for 2025-08-25: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:17:11,702 INFO Scraping flights from TLV to ANY from 2025-08-26 to 2025-09-02...
+2025-07-14 16:17:11,702 ERROR Failed to scrape Google Flights for 2025-08-26: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:17:13,703 INFO Scraping flights from TLV to ANY from 2025-08-27 to 2025-09-03...
+2025-07-14 16:17:13,703 ERROR Failed to scrape Google Flights for 2025-08-27: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:17:15,705 INFO Scraping flights from TLV to ANY from 2025-08-28 to 2025-09-04...
+2025-07-14 16:17:15,705 ERROR Failed to scrape Google Flights for 2025-08-28: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:17:17,706 INFO Scraping flights from TLV to ANY from 2025-08-29 to 2025-09-05...
+2025-07-14 16:17:17,706 ERROR Failed to scrape Google Flights for 2025-08-29: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:17:19,707 INFO Scraping flights from TLV to ANY from 2025-08-30 to 2025-09-06...
+2025-07-14 16:17:19,707 ERROR Failed to scrape Google Flights for 2025-08-30: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:17:21,709 INFO Scraping flights from TLV to ANY from 2025-08-31 to 2025-09-07...
+2025-07-14 16:17:21,709 ERROR Failed to scrape Google Flights for 2025-08-31: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:17:23,710 INFO No flights found matching criteria
+2025-07-14 16:17:23,710 INFO Added job "main.<locals>.<lambda>" to job store "default"
+2025-07-14 16:17:23,710 INFO Scheduler started
+2025-07-14 16:46:19,421 INFO Running job "main.<locals>.<lambda> (trigger: interval[0:30:00], next run at: 2025-07-14 16:46:19 IDT)" (scheduled at 2025-07-14 16:46:19.403507+03:00)
+2025-07-14 16:46:19,932 INFO Chromedriver is already installed.
+2025-07-14 16:46:19,932 INFO Scraping flights from TLV to ANY from 2025-08-01 to 2025-08-08...
+2025-07-14 16:46:19,932 ERROR Failed to scrape Google Flights for 2025-08-01: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:46:21,945 INFO Scraping flights from TLV to ANY from 2025-08-02 to 2025-08-09...
+2025-07-14 16:46:21,945 ERROR Failed to scrape Google Flights for 2025-08-02: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:46:23,946 INFO Scraping flights from TLV to ANY from 2025-08-03 to 2025-08-10...
+2025-07-14 16:46:23,946 ERROR Failed to scrape Google Flights for 2025-08-03: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:46:25,947 INFO Scraping flights from TLV to ANY from 2025-08-04 to 2025-08-11...
+2025-07-14 16:46:25,947 ERROR Failed to scrape Google Flights for 2025-08-04: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:46:27,949 INFO Scraping flights from TLV to ANY from 2025-08-05 to 2025-08-12...
+2025-07-14 16:46:27,949 ERROR Failed to scrape Google Flights for 2025-08-05: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:46:29,950 INFO Scraping flights from TLV to ANY from 2025-08-06 to 2025-08-13...
+2025-07-14 16:46:29,950 ERROR Failed to scrape Google Flights for 2025-08-06: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:46:31,952 INFO Scraping flights from TLV to ANY from 2025-08-07 to 2025-08-14...
+2025-07-14 16:46:31,952 ERROR Failed to scrape Google Flights for 2025-08-07: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:46:33,953 INFO Scraping flights from TLV to ANY from 2025-08-08 to 2025-08-15...
+2025-07-14 16:46:33,953 ERROR Failed to scrape Google Flights for 2025-08-08: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:46:35,955 INFO Scraping flights from TLV to ANY from 2025-08-09 to 2025-08-16...
+2025-07-14 16:46:35,955 ERROR Failed to scrape Google Flights for 2025-08-09: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:46:37,955 INFO Scraping flights from TLV to ANY from 2025-08-10 to 2025-08-17...
+2025-07-14 16:46:37,955 ERROR Failed to scrape Google Flights for 2025-08-10: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:46:39,957 INFO Scraping flights from TLV to ANY from 2025-08-11 to 2025-08-18...
+2025-07-14 16:46:39,957 ERROR Failed to scrape Google Flights for 2025-08-11: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:46:41,958 INFO Scraping flights from TLV to ANY from 2025-08-12 to 2025-08-19...
+2025-07-14 16:46:41,958 ERROR Failed to scrape Google Flights for 2025-08-12: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:46:43,959 INFO Scraping flights from TLV to ANY from 2025-08-13 to 2025-08-20...
+2025-07-14 16:46:43,959 ERROR Failed to scrape Google Flights for 2025-08-13: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:46:45,960 INFO Scraping flights from TLV to ANY from 2025-08-14 to 2025-08-21...
+2025-07-14 16:46:45,960 ERROR Failed to scrape Google Flights for 2025-08-14: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:46:47,961 INFO Scraping flights from TLV to ANY from 2025-08-15 to 2025-08-22...
+2025-07-14 16:46:47,961 ERROR Failed to scrape Google Flights for 2025-08-15: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:46:49,962 INFO Scraping flights from TLV to ANY from 2025-08-16 to 2025-08-23...
+2025-07-14 16:46:49,962 ERROR Failed to scrape Google Flights for 2025-08-16: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:46:51,963 INFO Scraping flights from TLV to ANY from 2025-08-17 to 2025-08-24...
+2025-07-14 16:46:51,963 ERROR Failed to scrape Google Flights for 2025-08-17: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:46:53,964 INFO Scraping flights from TLV to ANY from 2025-08-18 to 2025-08-25...
+2025-07-14 16:46:53,964 ERROR Failed to scrape Google Flights for 2025-08-18: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:46:55,966 INFO Scraping flights from TLV to ANY from 2025-08-19 to 2025-08-26...
+2025-07-14 16:46:55,966 ERROR Failed to scrape Google Flights for 2025-08-19: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:46:57,968 INFO Scraping flights from TLV to ANY from 2025-08-20 to 2025-08-27...
+2025-07-14 16:46:57,968 ERROR Failed to scrape Google Flights for 2025-08-20: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:46:59,969 INFO Scraping flights from TLV to ANY from 2025-08-21 to 2025-08-28...
+2025-07-14 16:46:59,969 ERROR Failed to scrape Google Flights for 2025-08-21: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:47:01,970 INFO Scraping flights from TLV to ANY from 2025-08-22 to 2025-08-29...
+2025-07-14 16:47:01,970 ERROR Failed to scrape Google Flights for 2025-08-22: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:47:03,972 INFO Scraping flights from TLV to ANY from 2025-08-23 to 2025-08-30...
+2025-07-14 16:47:03,972 ERROR Failed to scrape Google Flights for 2025-08-23: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:47:05,975 INFO Scraping flights from TLV to ANY from 2025-08-24 to 2025-08-31...
+2025-07-14 16:47:05,975 ERROR Failed to scrape Google Flights for 2025-08-24: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:47:07,976 INFO Scraping flights from TLV to ANY from 2025-08-25 to 2025-09-01...
+2025-07-14 16:47:07,976 ERROR Failed to scrape Google Flights for 2025-08-25: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:47:09,978 INFO Scraping flights from TLV to ANY from 2025-08-26 to 2025-09-02...
+2025-07-14 16:47:09,978 ERROR Failed to scrape Google Flights for 2025-08-26: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:47:11,981 INFO Scraping flights from TLV to ANY from 2025-08-27 to 2025-09-03...
+2025-07-14 16:47:11,981 ERROR Failed to scrape Google Flights for 2025-08-27: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:47:13,982 INFO Scraping flights from TLV to ANY from 2025-08-28 to 2025-09-04...
+2025-07-14 16:47:13,982 ERROR Failed to scrape Google Flights for 2025-08-28: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:47:15,984 INFO Scraping flights from TLV to ANY from 2025-08-29 to 2025-09-05...
+2025-07-14 16:47:15,984 ERROR Failed to scrape Google Flights for 2025-08-29: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:47:17,987 INFO Scraping flights from TLV to ANY from 2025-08-30 to 2025-09-06...
+2025-07-14 16:47:17,987 ERROR Failed to scrape Google Flights for 2025-08-30: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:47:19,988 INFO Scraping flights from TLV to ANY from 2025-08-31 to 2025-09-07...
+2025-07-14 16:47:19,988 ERROR Failed to scrape Google Flights for 2025-08-31: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    result = Scrape(origin, dest, day.isoformat(), return_date.isoformat(), driver_path=chromedriver_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 16:47:21,991 INFO No flights found matching criteria
+2025-07-14 16:47:21,991 INFO Job "main.<locals>.<lambda> (trigger: interval[0:30:00], next run at: 2025-07-14 17:16:19 IDT)" executed successfully
+2025-07-14 17:53:27,593 WARNING Run time of job "main.<locals>.<lambda> (trigger: interval[0:30:00], next run at: 2025-07-14 18:16:19 IDT)" was missed by 0:07:08.189776
+2025-07-14 18:16:19,416 INFO Running job "main.<locals>.<lambda> (trigger: interval[0:30:00], next run at: 2025-07-14 18:46:19 IDT)" (scheduled at 2025-07-14 18:16:19.403507+03:00)
+2025-07-14 18:16:19,782 INFO Chromedriver is already installed.
+2025-07-14 18:16:19,782 INFO Scraping flights from TLV to ANY from 2025-08-01 to 2025-08-08...
+2025-07-14 18:16:19,782 ERROR Failed to scrape Google Flights for 2025-08-01: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 18:16:21,794 INFO Scraping flights from TLV to ANY from 2025-08-02 to 2025-08-09...
+2025-07-14 18:16:21,794 ERROR Failed to scrape Google Flights for 2025-08-02: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 18:16:23,795 INFO Scraping flights from TLV to ANY from 2025-08-03 to 2025-08-10...
+2025-07-14 18:16:23,795 ERROR Failed to scrape Google Flights for 2025-08-03: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 18:16:25,796 INFO Scraping flights from TLV to ANY from 2025-08-04 to 2025-08-11...
+2025-07-14 18:16:25,796 ERROR Failed to scrape Google Flights for 2025-08-04: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 18:16:27,797 INFO Scraping flights from TLV to ANY from 2025-08-05 to 2025-08-12...
+2025-07-14 18:16:27,797 ERROR Failed to scrape Google Flights for 2025-08-05: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 18:16:29,799 INFO Scraping flights from TLV to ANY from 2025-08-06 to 2025-08-13...
+2025-07-14 18:16:29,799 ERROR Failed to scrape Google Flights for 2025-08-06: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 18:16:31,800 INFO Scraping flights from TLV to ANY from 2025-08-07 to 2025-08-14...
+2025-07-14 18:16:31,800 ERROR Failed to scrape Google Flights for 2025-08-07: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 18:16:33,802 INFO Scraping flights from TLV to ANY from 2025-08-08 to 2025-08-15...
+2025-07-14 18:16:33,802 ERROR Failed to scrape Google Flights for 2025-08-08: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 18:16:35,803 INFO Scraping flights from TLV to ANY from 2025-08-09 to 2025-08-16...
+2025-07-14 18:16:35,803 ERROR Failed to scrape Google Flights for 2025-08-09: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 18:16:37,804 INFO Scraping flights from TLV to ANY from 2025-08-10 to 2025-08-17...
+2025-07-14 18:16:37,804 ERROR Failed to scrape Google Flights for 2025-08-10: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 18:16:39,805 INFO Scraping flights from TLV to ANY from 2025-08-11 to 2025-08-18...
+2025-07-14 18:16:39,805 ERROR Failed to scrape Google Flights for 2025-08-11: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 18:16:41,806 INFO Scraping flights from TLV to ANY from 2025-08-12 to 2025-08-19...
+2025-07-14 18:16:41,806 ERROR Failed to scrape Google Flights for 2025-08-12: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 18:16:43,808 INFO Scraping flights from TLV to ANY from 2025-08-13 to 2025-08-20...
+2025-07-14 18:16:43,808 ERROR Failed to scrape Google Flights for 2025-08-13: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 18:16:45,809 INFO Scraping flights from TLV to ANY from 2025-08-14 to 2025-08-21...
+2025-07-14 18:16:45,809 ERROR Failed to scrape Google Flights for 2025-08-14: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 18:16:47,810 INFO Scraping flights from TLV to ANY from 2025-08-15 to 2025-08-22...
+2025-07-14 18:16:47,810 ERROR Failed to scrape Google Flights for 2025-08-15: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 18:16:49,811 INFO Scraping flights from TLV to ANY from 2025-08-16 to 2025-08-23...
+2025-07-14 18:16:49,811 ERROR Failed to scrape Google Flights for 2025-08-16: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 18:16:51,814 INFO Scraping flights from TLV to ANY from 2025-08-17 to 2025-08-24...
+2025-07-14 18:16:51,814 ERROR Failed to scrape Google Flights for 2025-08-17: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 18:16:53,816 INFO Scraping flights from TLV to ANY from 2025-08-18 to 2025-08-25...
+2025-07-14 18:16:53,816 ERROR Failed to scrape Google Flights for 2025-08-18: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 18:16:55,817 INFO Scraping flights from TLV to ANY from 2025-08-19 to 2025-08-26...
+2025-07-14 18:16:55,817 ERROR Failed to scrape Google Flights for 2025-08-19: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 18:16:57,818 INFO Scraping flights from TLV to ANY from 2025-08-20 to 2025-08-27...
+2025-07-14 18:16:57,818 ERROR Failed to scrape Google Flights for 2025-08-20: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 18:16:59,821 INFO Scraping flights from TLV to ANY from 2025-08-21 to 2025-08-28...
+2025-07-14 18:16:59,821 ERROR Failed to scrape Google Flights for 2025-08-21: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 18:17:01,823 INFO Scraping flights from TLV to ANY from 2025-08-22 to 2025-08-29...
+2025-07-14 18:17:01,823 ERROR Failed to scrape Google Flights for 2025-08-22: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 18:17:03,825 INFO Scraping flights from TLV to ANY from 2025-08-23 to 2025-08-30...
+2025-07-14 18:17:03,825 ERROR Failed to scrape Google Flights for 2025-08-23: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 18:17:05,827 INFO Scraping flights from TLV to ANY from 2025-08-24 to 2025-08-31...
+2025-07-14 18:17:05,827 ERROR Failed to scrape Google Flights for 2025-08-24: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 18:17:07,829 INFO Scraping flights from TLV to ANY from 2025-08-25 to 2025-09-01...
+2025-07-14 18:17:07,829 ERROR Failed to scrape Google Flights for 2025-08-25: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 18:17:09,830 INFO Scraping flights from TLV to ANY from 2025-08-26 to 2025-09-02...
+2025-07-14 18:17:09,830 ERROR Failed to scrape Google Flights for 2025-08-26: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 18:17:11,830 INFO Scraping flights from TLV to ANY from 2025-08-27 to 2025-09-03...
+2025-07-14 18:17:11,830 ERROR Failed to scrape Google Flights for 2025-08-27: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 18:17:13,832 INFO Scraping flights from TLV to ANY from 2025-08-28 to 2025-09-04...
+2025-07-14 18:17:13,832 ERROR Failed to scrape Google Flights for 2025-08-28: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 18:17:15,833 INFO Scraping flights from TLV to ANY from 2025-08-29 to 2025-09-05...
+2025-07-14 18:17:15,833 ERROR Failed to scrape Google Flights for 2025-08-29: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 18:17:17,834 INFO Scraping flights from TLV to ANY from 2025-08-30 to 2025-09-06...
+2025-07-14 18:17:17,834 ERROR Failed to scrape Google Flights for 2025-08-30: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 18:17:19,835 INFO Scraping flights from TLV to ANY from 2025-08-31 to 2025-09-07...
+2025-07-14 18:17:19,835 ERROR Failed to scrape Google Flights for 2025-08-31: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-14 18:17:21,837 INFO No flights found matching criteria
+2025-07-14 18:17:21,837 INFO Job "main.<locals>.<lambda> (trigger: interval[0:30:00], next run at: 2025-07-14 18:46:19 IDT)" executed successfully
+2025-07-14 19:00:35,873 WARNING Run time of job "main.<locals>.<lambda> (trigger: interval[0:30:00], next run at: 2025-07-14 19:16:19 IDT)" was missed by 0:14:16.469889
+2025-07-17 17:23:53,907 WARNING Run time of job "main.<locals>.<lambda> (trigger: interval[0:30:00], next run at: 2025-07-17 17:46:19 IDT)" was missed by 0:07:34.501788
+2025-07-17 17:46:19,516 INFO Running job "main.<locals>.<lambda> (trigger: interval[0:30:00], next run at: 2025-07-17 18:16:19 IDT)" (scheduled at 2025-07-17 17:46:19.403507+03:00)
+2025-07-17 17:46:20,844 INFO Downloading chromedriver (138.0.7204.157)...
+2025-07-17 17:46:22,136 INFO Scraping flights from TLV to ANY from 2025-08-01 to 2025-08-08...
+2025-07-17 17:46:22,136 ERROR Failed to scrape Google Flights for 2025-08-01: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 17:46:24,146 INFO Scraping flights from TLV to ANY from 2025-08-02 to 2025-08-09...
+2025-07-17 17:46:24,146 ERROR Failed to scrape Google Flights for 2025-08-02: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 17:46:26,150 INFO Scraping flights from TLV to ANY from 2025-08-03 to 2025-08-10...
+2025-07-17 17:46:26,150 ERROR Failed to scrape Google Flights for 2025-08-03: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 17:46:28,157 INFO Scraping flights from TLV to ANY from 2025-08-04 to 2025-08-11...
+2025-07-17 17:46:28,157 ERROR Failed to scrape Google Flights for 2025-08-04: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 17:46:30,158 INFO Scraping flights from TLV to ANY from 2025-08-05 to 2025-08-12...
+2025-07-17 17:46:30,158 ERROR Failed to scrape Google Flights for 2025-08-05: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 17:46:32,161 INFO Scraping flights from TLV to ANY from 2025-08-06 to 2025-08-13...
+2025-07-17 17:46:32,161 ERROR Failed to scrape Google Flights for 2025-08-06: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 17:46:34,162 INFO Scraping flights from TLV to ANY from 2025-08-07 to 2025-08-14...
+2025-07-17 17:46:34,162 ERROR Failed to scrape Google Flights for 2025-08-07: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 17:46:36,165 INFO Scraping flights from TLV to ANY from 2025-08-08 to 2025-08-15...
+2025-07-17 17:46:36,165 ERROR Failed to scrape Google Flights for 2025-08-08: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 17:46:38,167 INFO Scraping flights from TLV to ANY from 2025-08-09 to 2025-08-16...
+2025-07-17 17:46:38,167 ERROR Failed to scrape Google Flights for 2025-08-09: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 17:46:40,170 INFO Scraping flights from TLV to ANY from 2025-08-10 to 2025-08-17...
+2025-07-17 17:46:40,170 ERROR Failed to scrape Google Flights for 2025-08-10: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 17:46:42,172 INFO Scraping flights from TLV to ANY from 2025-08-11 to 2025-08-18...
+2025-07-17 17:46:42,172 ERROR Failed to scrape Google Flights for 2025-08-11: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 17:46:44,174 INFO Scraping flights from TLV to ANY from 2025-08-12 to 2025-08-19...
+2025-07-17 17:46:44,174 ERROR Failed to scrape Google Flights for 2025-08-12: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 17:46:46,177 INFO Scraping flights from TLV to ANY from 2025-08-13 to 2025-08-20...
+2025-07-17 17:46:46,177 ERROR Failed to scrape Google Flights for 2025-08-13: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 17:46:48,178 INFO Scraping flights from TLV to ANY from 2025-08-14 to 2025-08-21...
+2025-07-17 17:46:48,178 ERROR Failed to scrape Google Flights for 2025-08-14: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 17:46:50,179 INFO Scraping flights from TLV to ANY from 2025-08-15 to 2025-08-22...
+2025-07-17 17:46:50,179 ERROR Failed to scrape Google Flights for 2025-08-15: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 17:46:52,185 INFO Scraping flights from TLV to ANY from 2025-08-16 to 2025-08-23...
+2025-07-17 17:46:52,185 ERROR Failed to scrape Google Flights for 2025-08-16: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 17:46:54,186 INFO Scraping flights from TLV to ANY from 2025-08-17 to 2025-08-24...
+2025-07-17 17:46:54,186 ERROR Failed to scrape Google Flights for 2025-08-17: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 17:46:56,188 INFO Scraping flights from TLV to ANY from 2025-08-18 to 2025-08-25...
+2025-07-17 17:46:56,188 ERROR Failed to scrape Google Flights for 2025-08-18: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 17:46:58,189 INFO Scraping flights from TLV to ANY from 2025-08-19 to 2025-08-26...
+2025-07-17 17:46:58,189 ERROR Failed to scrape Google Flights for 2025-08-19: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 17:47:00,190 INFO Scraping flights from TLV to ANY from 2025-08-20 to 2025-08-27...
+2025-07-17 17:47:00,190 ERROR Failed to scrape Google Flights for 2025-08-20: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 17:47:02,192 INFO Scraping flights from TLV to ANY from 2025-08-21 to 2025-08-28...
+2025-07-17 17:47:02,192 ERROR Failed to scrape Google Flights for 2025-08-21: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 17:47:04,195 INFO Scraping flights from TLV to ANY from 2025-08-22 to 2025-08-29...
+2025-07-17 17:47:04,195 ERROR Failed to scrape Google Flights for 2025-08-22: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 17:47:06,196 INFO Scraping flights from TLV to ANY from 2025-08-23 to 2025-08-30...
+2025-07-17 17:47:06,196 ERROR Failed to scrape Google Flights for 2025-08-23: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 17:47:08,198 INFO Scraping flights from TLV to ANY from 2025-08-24 to 2025-08-31...
+2025-07-17 17:47:08,198 ERROR Failed to scrape Google Flights for 2025-08-24: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 17:47:10,201 INFO Scraping flights from TLV to ANY from 2025-08-25 to 2025-09-01...
+2025-07-17 17:47:10,201 ERROR Failed to scrape Google Flights for 2025-08-25: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 17:47:12,203 INFO Scraping flights from TLV to ANY from 2025-08-26 to 2025-09-02...
+2025-07-17 17:47:12,203 ERROR Failed to scrape Google Flights for 2025-08-26: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 17:47:14,204 INFO Scraping flights from TLV to ANY from 2025-08-27 to 2025-09-03...
+2025-07-17 17:47:14,204 ERROR Failed to scrape Google Flights for 2025-08-27: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 17:47:16,205 INFO Scraping flights from TLV to ANY from 2025-08-28 to 2025-09-04...
+2025-07-17 17:47:16,205 ERROR Failed to scrape Google Flights for 2025-08-28: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 17:47:18,209 INFO Scraping flights from TLV to ANY from 2025-08-29 to 2025-09-05...
+2025-07-17 17:47:18,209 ERROR Failed to scrape Google Flights for 2025-08-29: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 17:47:20,210 INFO Scraping flights from TLV to ANY from 2025-08-30 to 2025-09-06...
+2025-07-17 17:47:20,210 ERROR Failed to scrape Google Flights for 2025-08-30: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 17:47:22,211 INFO Scraping flights from TLV to ANY from 2025-08-31 to 2025-09-07...
+2025-07-17 17:47:22,211 ERROR Failed to scrape Google Flights for 2025-08-31: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 17:47:24,237 INFO No flights found matching criteria
+2025-07-17 17:47:24,237 INFO Job "main.<locals>.<lambda> (trigger: interval[0:30:00], next run at: 2025-07-17 18:16:19 IDT)" executed successfully
+2025-07-17 18:16:19,407 INFO Running job "main.<locals>.<lambda> (trigger: interval[0:30:00], next run at: 2025-07-17 18:46:19 IDT)" (scheduled at 2025-07-17 18:16:19.403507+03:00)
+2025-07-17 18:16:20,284 INFO Chromedriver is already installed.
+2025-07-17 18:16:20,284 INFO Scraping flights from TLV to ANY from 2025-08-01 to 2025-08-08...
+2025-07-17 18:16:20,284 ERROR Failed to scrape Google Flights for 2025-08-01: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:16:22,305 INFO Scraping flights from TLV to ANY from 2025-08-02 to 2025-08-09...
+2025-07-17 18:16:22,305 ERROR Failed to scrape Google Flights for 2025-08-02: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:16:24,306 INFO Scraping flights from TLV to ANY from 2025-08-03 to 2025-08-10...
+2025-07-17 18:16:24,306 ERROR Failed to scrape Google Flights for 2025-08-03: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:16:26,307 INFO Scraping flights from TLV to ANY from 2025-08-04 to 2025-08-11...
+2025-07-17 18:16:26,307 ERROR Failed to scrape Google Flights for 2025-08-04: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:16:28,309 INFO Scraping flights from TLV to ANY from 2025-08-05 to 2025-08-12...
+2025-07-17 18:16:28,309 ERROR Failed to scrape Google Flights for 2025-08-05: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:16:30,310 INFO Scraping flights from TLV to ANY from 2025-08-06 to 2025-08-13...
+2025-07-17 18:16:30,310 ERROR Failed to scrape Google Flights for 2025-08-06: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:16:32,311 INFO Scraping flights from TLV to ANY from 2025-08-07 to 2025-08-14...
+2025-07-17 18:16:32,312 ERROR Failed to scrape Google Flights for 2025-08-07: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:16:34,315 INFO Scraping flights from TLV to ANY from 2025-08-08 to 2025-08-15...
+2025-07-17 18:16:34,315 ERROR Failed to scrape Google Flights for 2025-08-08: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:16:36,317 INFO Scraping flights from TLV to ANY from 2025-08-09 to 2025-08-16...
+2025-07-17 18:16:36,317 ERROR Failed to scrape Google Flights for 2025-08-09: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:16:38,319 INFO Scraping flights from TLV to ANY from 2025-08-10 to 2025-08-17...
+2025-07-17 18:16:38,319 ERROR Failed to scrape Google Flights for 2025-08-10: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:16:40,321 INFO Scraping flights from TLV to ANY from 2025-08-11 to 2025-08-18...
+2025-07-17 18:16:40,322 ERROR Failed to scrape Google Flights for 2025-08-11: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:16:42,325 INFO Scraping flights from TLV to ANY from 2025-08-12 to 2025-08-19...
+2025-07-17 18:16:42,325 ERROR Failed to scrape Google Flights for 2025-08-12: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:16:44,327 INFO Scraping flights from TLV to ANY from 2025-08-13 to 2025-08-20...
+2025-07-17 18:16:44,327 ERROR Failed to scrape Google Flights for 2025-08-13: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:16:46,328 INFO Scraping flights from TLV to ANY from 2025-08-14 to 2025-08-21...
+2025-07-17 18:16:46,328 ERROR Failed to scrape Google Flights for 2025-08-14: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:16:48,332 INFO Scraping flights from TLV to ANY from 2025-08-15 to 2025-08-22...
+2025-07-17 18:16:48,332 ERROR Failed to scrape Google Flights for 2025-08-15: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:16:50,333 INFO Scraping flights from TLV to ANY from 2025-08-16 to 2025-08-23...
+2025-07-17 18:16:50,333 ERROR Failed to scrape Google Flights for 2025-08-16: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:16:52,334 INFO Scraping flights from TLV to ANY from 2025-08-17 to 2025-08-24...
+2025-07-17 18:16:52,334 ERROR Failed to scrape Google Flights for 2025-08-17: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:16:54,338 INFO Scraping flights from TLV to ANY from 2025-08-18 to 2025-08-25...
+2025-07-17 18:16:54,338 ERROR Failed to scrape Google Flights for 2025-08-18: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:16:56,340 INFO Scraping flights from TLV to ANY from 2025-08-19 to 2025-08-26...
+2025-07-17 18:16:56,340 ERROR Failed to scrape Google Flights for 2025-08-19: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:16:58,342 INFO Scraping flights from TLV to ANY from 2025-08-20 to 2025-08-27...
+2025-07-17 18:16:58,342 ERROR Failed to scrape Google Flights for 2025-08-20: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:17:00,343 INFO Scraping flights from TLV to ANY from 2025-08-21 to 2025-08-28...
+2025-07-17 18:17:00,343 ERROR Failed to scrape Google Flights for 2025-08-21: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:17:02,343 INFO Scraping flights from TLV to ANY from 2025-08-22 to 2025-08-29...
+2025-07-17 18:17:02,343 ERROR Failed to scrape Google Flights for 2025-08-22: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:17:04,344 INFO Scraping flights from TLV to ANY from 2025-08-23 to 2025-08-30...
+2025-07-17 18:17:04,344 ERROR Failed to scrape Google Flights for 2025-08-23: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:17:06,345 INFO Scraping flights from TLV to ANY from 2025-08-24 to 2025-08-31...
+2025-07-17 18:17:06,345 ERROR Failed to scrape Google Flights for 2025-08-24: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:17:08,346 INFO Scraping flights from TLV to ANY from 2025-08-25 to 2025-09-01...
+2025-07-17 18:17:08,346 ERROR Failed to scrape Google Flights for 2025-08-25: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:17:10,348 INFO Scraping flights from TLV to ANY from 2025-08-26 to 2025-09-02...
+2025-07-17 18:17:10,348 ERROR Failed to scrape Google Flights for 2025-08-26: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:17:12,349 INFO Scraping flights from TLV to ANY from 2025-08-27 to 2025-09-03...
+2025-07-17 18:17:12,349 ERROR Failed to scrape Google Flights for 2025-08-27: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:17:14,353 INFO Scraping flights from TLV to ANY from 2025-08-28 to 2025-09-04...
+2025-07-17 18:17:14,353 ERROR Failed to scrape Google Flights for 2025-08-28: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:17:16,356 INFO Scraping flights from TLV to ANY from 2025-08-29 to 2025-09-05...
+2025-07-17 18:17:16,356 ERROR Failed to scrape Google Flights for 2025-08-29: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:17:18,358 INFO Scraping flights from TLV to ANY from 2025-08-30 to 2025-09-06...
+2025-07-17 18:17:18,358 ERROR Failed to scrape Google Flights for 2025-08-30: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:17:20,361 INFO Scraping flights from TLV to ANY from 2025-08-31 to 2025-09-07...
+2025-07-17 18:17:20,362 ERROR Failed to scrape Google Flights for 2025-08-31: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:17:22,367 INFO No flights found matching criteria
+2025-07-17 18:17:22,367 INFO Job "main.<locals>.<lambda> (trigger: interval[0:30:00], next run at: 2025-07-17 18:46:19 IDT)" executed successfully
+2025-07-17 18:46:19,420 INFO Running job "main.<locals>.<lambda> (trigger: interval[0:30:00], next run at: 2025-07-17 19:16:19 IDT)" (scheduled at 2025-07-17 18:46:19.403507+03:00)
+2025-07-17 18:46:20,690 INFO Chromedriver is already installed.
+2025-07-17 18:46:20,691 INFO Scraping flights from TLV to ANY from 2025-08-01 to 2025-08-08...
+2025-07-17 18:46:20,691 ERROR Failed to scrape Google Flights for 2025-08-01: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:46:22,693 INFO Scraping flights from TLV to ANY from 2025-08-02 to 2025-08-09...
+2025-07-17 18:46:22,693 ERROR Failed to scrape Google Flights for 2025-08-02: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:46:24,694 INFO Scraping flights from TLV to ANY from 2025-08-03 to 2025-08-10...
+2025-07-17 18:46:24,694 ERROR Failed to scrape Google Flights for 2025-08-03: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:46:26,696 INFO Scraping flights from TLV to ANY from 2025-08-04 to 2025-08-11...
+2025-07-17 18:46:26,696 ERROR Failed to scrape Google Flights for 2025-08-04: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:46:28,699 INFO Scraping flights from TLV to ANY from 2025-08-05 to 2025-08-12...
+2025-07-17 18:46:28,699 ERROR Failed to scrape Google Flights for 2025-08-05: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:46:30,700 INFO Scraping flights from TLV to ANY from 2025-08-06 to 2025-08-13...
+2025-07-17 18:46:30,700 ERROR Failed to scrape Google Flights for 2025-08-06: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:46:32,701 INFO Scraping flights from TLV to ANY from 2025-08-07 to 2025-08-14...
+2025-07-17 18:46:32,701 ERROR Failed to scrape Google Flights for 2025-08-07: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:46:34,703 INFO Scraping flights from TLV to ANY from 2025-08-08 to 2025-08-15...
+2025-07-17 18:46:34,703 ERROR Failed to scrape Google Flights for 2025-08-08: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:46:36,704 INFO Scraping flights from TLV to ANY from 2025-08-09 to 2025-08-16...
+2025-07-17 18:46:36,704 ERROR Failed to scrape Google Flights for 2025-08-09: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:46:38,705 INFO Scraping flights from TLV to ANY from 2025-08-10 to 2025-08-17...
+2025-07-17 18:46:38,705 ERROR Failed to scrape Google Flights for 2025-08-10: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:46:40,707 INFO Scraping flights from TLV to ANY from 2025-08-11 to 2025-08-18...
+2025-07-17 18:46:40,707 ERROR Failed to scrape Google Flights for 2025-08-11: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:46:42,709 INFO Scraping flights from TLV to ANY from 2025-08-12 to 2025-08-19...
+2025-07-17 18:46:42,709 ERROR Failed to scrape Google Flights for 2025-08-12: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:46:44,711 INFO Scraping flights from TLV to ANY from 2025-08-13 to 2025-08-20...
+2025-07-17 18:46:44,711 ERROR Failed to scrape Google Flights for 2025-08-13: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:46:46,712 INFO Scraping flights from TLV to ANY from 2025-08-14 to 2025-08-21...
+2025-07-17 18:46:46,712 ERROR Failed to scrape Google Flights for 2025-08-14: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:46:48,715 INFO Scraping flights from TLV to ANY from 2025-08-15 to 2025-08-22...
+2025-07-17 18:46:48,715 ERROR Failed to scrape Google Flights for 2025-08-15: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:46:50,716 INFO Scraping flights from TLV to ANY from 2025-08-16 to 2025-08-23...
+2025-07-17 18:46:50,716 ERROR Failed to scrape Google Flights for 2025-08-16: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:46:52,717 INFO Scraping flights from TLV to ANY from 2025-08-17 to 2025-08-24...
+2025-07-17 18:46:52,717 ERROR Failed to scrape Google Flights for 2025-08-17: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:46:54,717 INFO Scraping flights from TLV to ANY from 2025-08-18 to 2025-08-25...
+2025-07-17 18:46:54,717 ERROR Failed to scrape Google Flights for 2025-08-18: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:46:56,718 INFO Scraping flights from TLV to ANY from 2025-08-19 to 2025-08-26...
+2025-07-17 18:46:56,718 ERROR Failed to scrape Google Flights for 2025-08-19: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:46:58,720 INFO Scraping flights from TLV to ANY from 2025-08-20 to 2025-08-27...
+2025-07-17 18:46:58,720 ERROR Failed to scrape Google Flights for 2025-08-20: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:47:00,721 INFO Scraping flights from TLV to ANY from 2025-08-21 to 2025-08-28...
+2025-07-17 18:47:00,721 ERROR Failed to scrape Google Flights for 2025-08-21: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:47:02,722 INFO Scraping flights from TLV to ANY from 2025-08-22 to 2025-08-29...
+2025-07-17 18:47:02,722 ERROR Failed to scrape Google Flights for 2025-08-22: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:47:04,724 INFO Scraping flights from TLV to ANY from 2025-08-23 to 2025-08-30...
+2025-07-17 18:47:04,724 ERROR Failed to scrape Google Flights for 2025-08-23: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:47:06,725 INFO Scraping flights from TLV to ANY from 2025-08-24 to 2025-08-31...
+2025-07-17 18:47:06,725 ERROR Failed to scrape Google Flights for 2025-08-24: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:47:08,726 INFO Scraping flights from TLV to ANY from 2025-08-25 to 2025-09-01...
+2025-07-17 18:47:08,726 ERROR Failed to scrape Google Flights for 2025-08-25: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:47:10,727 INFO Scraping flights from TLV to ANY from 2025-08-26 to 2025-09-02...
+2025-07-17 18:47:10,727 ERROR Failed to scrape Google Flights for 2025-08-26: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:47:12,729 INFO Scraping flights from TLV to ANY from 2025-08-27 to 2025-09-03...
+2025-07-17 18:47:12,729 ERROR Failed to scrape Google Flights for 2025-08-27: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:47:14,731 INFO Scraping flights from TLV to ANY from 2025-08-28 to 2025-09-04...
+2025-07-17 18:47:14,731 ERROR Failed to scrape Google Flights for 2025-08-28: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:47:16,734 INFO Scraping flights from TLV to ANY from 2025-08-29 to 2025-09-05...
+2025-07-17 18:47:16,734 ERROR Failed to scrape Google Flights for 2025-08-29: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:47:18,737 INFO Scraping flights from TLV to ANY from 2025-08-30 to 2025-09-06...
+2025-07-17 18:47:18,737 ERROR Failed to scrape Google Flights for 2025-08-30: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:47:20,738 INFO Scraping flights from TLV to ANY from 2025-08-31 to 2025-09-07...
+2025-07-17 18:47:20,738 ERROR Failed to scrape Google Flights for 2025-08-31: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 18:47:22,740 INFO No flights found matching criteria
+2025-07-17 18:47:22,740 INFO Job "main.<locals>.<lambda> (trigger: interval[0:30:00], next run at: 2025-07-17 19:16:19 IDT)" executed successfully
+2025-07-17 19:16:19,418 INFO Running job "main.<locals>.<lambda> (trigger: interval[0:30:00], next run at: 2025-07-17 19:46:19 IDT)" (scheduled at 2025-07-17 19:16:19.403507+03:00)
+2025-07-17 19:16:20,554 INFO Chromedriver is already installed.
+2025-07-17 19:16:20,554 INFO Scraping flights from TLV to ANY from 2025-08-01 to 2025-08-08...
+2025-07-17 19:16:20,554 ERROR Failed to scrape Google Flights for 2025-08-01: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 19:16:22,559 INFO Scraping flights from TLV to ANY from 2025-08-02 to 2025-08-09...
+2025-07-17 19:16:22,559 ERROR Failed to scrape Google Flights for 2025-08-02: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 19:16:24,561 INFO Scraping flights from TLV to ANY from 2025-08-03 to 2025-08-10...
+2025-07-17 19:16:24,561 ERROR Failed to scrape Google Flights for 2025-08-03: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 19:16:26,562 INFO Scraping flights from TLV to ANY from 2025-08-04 to 2025-08-11...
+2025-07-17 19:16:26,562 ERROR Failed to scrape Google Flights for 2025-08-04: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 19:16:28,565 INFO Scraping flights from TLV to ANY from 2025-08-05 to 2025-08-12...
+2025-07-17 19:16:28,565 ERROR Failed to scrape Google Flights for 2025-08-05: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 19:16:30,567 INFO Scraping flights from TLV to ANY from 2025-08-06 to 2025-08-13...
+2025-07-17 19:16:30,567 ERROR Failed to scrape Google Flights for 2025-08-06: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 19:16:32,568 INFO Scraping flights from TLV to ANY from 2025-08-07 to 2025-08-14...
+2025-07-17 19:16:32,568 ERROR Failed to scrape Google Flights for 2025-08-07: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 19:16:34,570 INFO Scraping flights from TLV to ANY from 2025-08-08 to 2025-08-15...
+2025-07-17 19:16:34,570 ERROR Failed to scrape Google Flights for 2025-08-08: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 19:16:36,571 INFO Scraping flights from TLV to ANY from 2025-08-09 to 2025-08-16...
+2025-07-17 19:16:36,571 ERROR Failed to scrape Google Flights for 2025-08-09: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 19:16:38,572 INFO Scraping flights from TLV to ANY from 2025-08-10 to 2025-08-17...
+2025-07-17 19:16:38,572 ERROR Failed to scrape Google Flights for 2025-08-10: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 19:16:40,573 INFO Scraping flights from TLV to ANY from 2025-08-11 to 2025-08-18...
+2025-07-17 19:16:40,573 ERROR Failed to scrape Google Flights for 2025-08-11: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 19:16:42,576 INFO Scraping flights from TLV to ANY from 2025-08-12 to 2025-08-19...
+2025-07-17 19:16:42,576 ERROR Failed to scrape Google Flights for 2025-08-12: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 19:16:44,578 INFO Scraping flights from TLV to ANY from 2025-08-13 to 2025-08-20...
+2025-07-17 19:16:44,578 ERROR Failed to scrape Google Flights for 2025-08-13: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 19:16:46,581 INFO Scraping flights from TLV to ANY from 2025-08-14 to 2025-08-21...
+2025-07-17 19:16:46,581 ERROR Failed to scrape Google Flights for 2025-08-14: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 19:16:48,582 INFO Scraping flights from TLV to ANY from 2025-08-15 to 2025-08-22...
+2025-07-17 19:16:48,582 ERROR Failed to scrape Google Flights for 2025-08-15: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 19:16:50,583 INFO Scraping flights from TLV to ANY from 2025-08-16 to 2025-08-23...
+2025-07-17 19:16:50,583 ERROR Failed to scrape Google Flights for 2025-08-16: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 19:16:52,585 INFO Scraping flights from TLV to ANY from 2025-08-17 to 2025-08-24...
+2025-07-17 19:16:52,585 ERROR Failed to scrape Google Flights for 2025-08-17: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 19:16:54,586 INFO Scraping flights from TLV to ANY from 2025-08-18 to 2025-08-25...
+2025-07-17 19:16:54,586 ERROR Failed to scrape Google Flights for 2025-08-18: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 19:16:56,587 INFO Scraping flights from TLV to ANY from 2025-08-19 to 2025-08-26...
+2025-07-17 19:16:56,587 ERROR Failed to scrape Google Flights for 2025-08-19: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 19:16:58,588 INFO Scraping flights from TLV to ANY from 2025-08-20 to 2025-08-27...
+2025-07-17 19:16:58,588 ERROR Failed to scrape Google Flights for 2025-08-20: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 19:17:00,591 INFO Scraping flights from TLV to ANY from 2025-08-21 to 2025-08-28...
+2025-07-17 19:17:00,591 ERROR Failed to scrape Google Flights for 2025-08-21: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 19:17:02,593 INFO Scraping flights from TLV to ANY from 2025-08-22 to 2025-08-29...
+2025-07-17 19:17:02,593 ERROR Failed to scrape Google Flights for 2025-08-22: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 19:17:04,597 INFO Scraping flights from TLV to ANY from 2025-08-23 to 2025-08-30...
+2025-07-17 19:17:04,597 ERROR Failed to scrape Google Flights for 2025-08-23: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 19:17:06,599 INFO Scraping flights from TLV to ANY from 2025-08-24 to 2025-08-31...
+2025-07-17 19:17:06,599 ERROR Failed to scrape Google Flights for 2025-08-24: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 19:17:08,600 INFO Scraping flights from TLV to ANY from 2025-08-25 to 2025-09-01...
+2025-07-17 19:17:08,600 ERROR Failed to scrape Google Flights for 2025-08-25: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 19:17:10,601 INFO Scraping flights from TLV to ANY from 2025-08-26 to 2025-09-02...
+2025-07-17 19:17:10,601 ERROR Failed to scrape Google Flights for 2025-08-26: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 19:17:12,604 INFO Scraping flights from TLV to ANY from 2025-08-27 to 2025-09-03...
+2025-07-17 19:17:12,604 ERROR Failed to scrape Google Flights for 2025-08-27: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 19:17:14,605 INFO Scraping flights from TLV to ANY from 2025-08-28 to 2025-09-04...
+2025-07-17 19:17:14,605 ERROR Failed to scrape Google Flights for 2025-08-28: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 19:17:16,606 INFO Scraping flights from TLV to ANY from 2025-08-29 to 2025-09-05...
+2025-07-17 19:17:16,606 ERROR Failed to scrape Google Flights for 2025-08-29: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 19:17:18,606 INFO Scraping flights from TLV to ANY from 2025-08-30 to 2025-09-06...
+2025-07-17 19:17:18,606 ERROR Failed to scrape Google Flights for 2025-08-30: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 19:17:20,607 INFO Scraping flights from TLV to ANY from 2025-08-31 to 2025-09-07...
+2025-07-17 19:17:20,607 ERROR Failed to scrape Google Flights for 2025-08-31: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-17 19:17:22,608 INFO No flights found matching criteria
+2025-07-17 19:17:22,608 INFO Job "main.<locals>.<lambda> (trigger: interval[0:30:00], next run at: 2025-07-17 19:46:19 IDT)" executed successfully
+2025-07-18 11:06:55,984 WARNING Run time of job "main.<locals>.<lambda> (trigger: interval[0:30:00], next run at: 2025-07-18 11:16:19 IDT)" was missed by 0:20:36.580876
+2025-07-18 11:16:19,408 INFO Running job "main.<locals>.<lambda> (trigger: interval[0:30:00], next run at: 2025-07-18 11:46:19 IDT)" (scheduled at 2025-07-18 11:16:19.403507+03:00)
+2025-07-18 11:16:20,485 INFO Chromedriver is already installed.
+2025-07-18 11:16:20,485 INFO Scraping flights from TLV to ANY from 2025-08-01 to 2025-08-08...
+2025-07-18 11:16:20,485 ERROR Failed to scrape Google Flights for 2025-08-01: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-18 11:16:22,488 INFO Scraping flights from TLV to ANY from 2025-08-02 to 2025-08-09...
+2025-07-18 11:16:22,488 ERROR Failed to scrape Google Flights for 2025-08-02: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-18 11:16:24,489 INFO Scraping flights from TLV to ANY from 2025-08-03 to 2025-08-10...
+2025-07-18 11:16:24,489 ERROR Failed to scrape Google Flights for 2025-08-03: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-18 11:16:26,490 INFO Scraping flights from TLV to ANY from 2025-08-04 to 2025-08-11...
+2025-07-18 11:16:26,490 ERROR Failed to scrape Google Flights for 2025-08-04: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-18 11:16:28,491 INFO Scraping flights from TLV to ANY from 2025-08-05 to 2025-08-12...
+2025-07-18 11:16:28,491 ERROR Failed to scrape Google Flights for 2025-08-05: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-18 11:16:30,492 INFO Scraping flights from TLV to ANY from 2025-08-06 to 2025-08-13...
+2025-07-18 11:16:30,492 ERROR Failed to scrape Google Flights for 2025-08-06: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-18 11:16:32,495 INFO Scraping flights from TLV to ANY from 2025-08-07 to 2025-08-14...
+2025-07-18 11:16:32,495 ERROR Failed to scrape Google Flights for 2025-08-07: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-18 11:16:34,498 INFO Scraping flights from TLV to ANY from 2025-08-08 to 2025-08-15...
+2025-07-18 11:16:34,498 ERROR Failed to scrape Google Flights for 2025-08-08: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-18 11:16:36,499 INFO Scraping flights from TLV to ANY from 2025-08-09 to 2025-08-16...
+2025-07-18 11:16:36,499 ERROR Failed to scrape Google Flights for 2025-08-09: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-18 11:16:38,500 INFO Scraping flights from TLV to ANY from 2025-08-10 to 2025-08-17...
+2025-07-18 11:16:38,500 ERROR Failed to scrape Google Flights for 2025-08-10: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-18 11:16:40,505 INFO Scraping flights from TLV to ANY from 2025-08-11 to 2025-08-18...
+2025-07-18 11:16:40,505 ERROR Failed to scrape Google Flights for 2025-08-11: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-18 11:16:42,510 INFO Scraping flights from TLV to ANY from 2025-08-12 to 2025-08-19...
+2025-07-18 11:16:42,510 ERROR Failed to scrape Google Flights for 2025-08-12: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-18 11:16:44,510 INFO Scraping flights from TLV to ANY from 2025-08-13 to 2025-08-20...
+2025-07-18 11:16:44,510 ERROR Failed to scrape Google Flights for 2025-08-13: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-18 11:16:46,511 INFO Scraping flights from TLV to ANY from 2025-08-14 to 2025-08-21...
+2025-07-18 11:16:46,511 ERROR Failed to scrape Google Flights for 2025-08-14: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-18 11:16:48,513 INFO Scraping flights from TLV to ANY from 2025-08-15 to 2025-08-22...
+2025-07-18 11:16:48,513 ERROR Failed to scrape Google Flights for 2025-08-15: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-18 11:16:50,514 INFO Scraping flights from TLV to ANY from 2025-08-16 to 2025-08-23...
+2025-07-18 11:16:50,514 ERROR Failed to scrape Google Flights for 2025-08-16: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-18 11:16:52,514 INFO Scraping flights from TLV to ANY from 2025-08-17 to 2025-08-24...
+2025-07-18 11:16:52,514 ERROR Failed to scrape Google Flights for 2025-08-17: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-18 11:16:54,515 INFO Scraping flights from TLV to ANY from 2025-08-18 to 2025-08-25...
+2025-07-18 11:16:54,515 ERROR Failed to scrape Google Flights for 2025-08-18: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-18 11:16:56,516 INFO Scraping flights from TLV to ANY from 2025-08-19 to 2025-08-26...
+2025-07-18 11:16:56,516 ERROR Failed to scrape Google Flights for 2025-08-19: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-18 11:16:58,519 INFO Scraping flights from TLV to ANY from 2025-08-20 to 2025-08-27...
+2025-07-18 11:16:58,519 ERROR Failed to scrape Google Flights for 2025-08-20: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-18 11:17:00,519 INFO Scraping flights from TLV to ANY from 2025-08-21 to 2025-08-28...
+2025-07-18 11:17:00,519 ERROR Failed to scrape Google Flights for 2025-08-21: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-18 11:17:02,521 INFO Scraping flights from TLV to ANY from 2025-08-22 to 2025-08-29...
+2025-07-18 11:17:02,521 ERROR Failed to scrape Google Flights for 2025-08-22: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-18 11:17:04,522 INFO Scraping flights from TLV to ANY from 2025-08-23 to 2025-08-30...
+2025-07-18 11:17:04,522 ERROR Failed to scrape Google Flights for 2025-08-23: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-18 11:17:06,527 INFO Scraping flights from TLV to ANY from 2025-08-24 to 2025-08-31...
+2025-07-18 11:17:06,527 ERROR Failed to scrape Google Flights for 2025-08-24: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-18 11:17:08,532 INFO Scraping flights from TLV to ANY from 2025-08-25 to 2025-09-01...
+2025-07-18 11:17:08,532 ERROR Failed to scrape Google Flights for 2025-08-25: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-18 11:17:10,533 INFO Scraping flights from TLV to ANY from 2025-08-26 to 2025-09-02...
+2025-07-18 11:17:10,533 ERROR Failed to scrape Google Flights for 2025-08-26: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-18 11:17:12,535 INFO Scraping flights from TLV to ANY from 2025-08-27 to 2025-09-03...
+2025-07-18 11:17:12,535 ERROR Failed to scrape Google Flights for 2025-08-27: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-18 11:17:14,540 INFO Scraping flights from TLV to ANY from 2025-08-28 to 2025-09-04...
+2025-07-18 11:17:14,540 ERROR Failed to scrape Google Flights for 2025-08-28: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-18 11:17:16,542 INFO Scraping flights from TLV to ANY from 2025-08-29 to 2025-09-05...
+2025-07-18 11:17:16,542 ERROR Failed to scrape Google Flights for 2025-08-29: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-18 11:17:18,546 INFO Scraping flights from TLV to ANY from 2025-08-30 to 2025-09-06...
+2025-07-18 11:17:18,546 ERROR Failed to scrape Google Flights for 2025-08-30: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-18 11:17:20,547 INFO Scraping flights from TLV to ANY from 2025-08-31 to 2025-09-07...
+2025-07-18 11:17:20,547 ERROR Failed to scrape Google Flights for 2025-08-31: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-18 11:17:22,548 INFO No flights found matching criteria
+2025-07-18 11:17:22,548 INFO Job "main.<locals>.<lambda> (trigger: interval[0:30:00], next run at: 2025-07-18 11:46:19 IDT)" executed successfully
+2025-07-20 11:31:52,450 WARNING Run time of job "main.<locals>.<lambda> (trigger: interval[0:30:00], next run at: 2025-07-20 11:46:19 IDT)" was missed by 0:15:33.046925
+2025-07-20 11:46:19,417 INFO Running job "main.<locals>.<lambda> (trigger: interval[0:30:00], next run at: 2025-07-20 12:16:19 IDT)" (scheduled at 2025-07-20 11:46:19.403507+03:00)
+2025-07-20 11:46:21,764 INFO Chromedriver is already installed.
+2025-07-20 11:46:21,764 INFO Scraping flights from TLV to ANY from 2025-08-01 to 2025-08-08...
+2025-07-20 11:46:21,764 ERROR Failed to scrape Google Flights for 2025-08-01: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 11:46:23,766 INFO Scraping flights from TLV to ANY from 2025-08-02 to 2025-08-09...
+2025-07-20 11:46:23,766 ERROR Failed to scrape Google Flights for 2025-08-02: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 11:46:25,768 INFO Scraping flights from TLV to ANY from 2025-08-03 to 2025-08-10...
+2025-07-20 11:46:25,768 ERROR Failed to scrape Google Flights for 2025-08-03: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 11:46:27,771 INFO Scraping flights from TLV to ANY from 2025-08-04 to 2025-08-11...
+2025-07-20 11:46:27,771 ERROR Failed to scrape Google Flights for 2025-08-04: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 11:46:29,772 INFO Scraping flights from TLV to ANY from 2025-08-05 to 2025-08-12...
+2025-07-20 11:46:29,772 ERROR Failed to scrape Google Flights for 2025-08-05: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 11:46:31,773 INFO Scraping flights from TLV to ANY from 2025-08-06 to 2025-08-13...
+2025-07-20 11:46:31,773 ERROR Failed to scrape Google Flights for 2025-08-06: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 11:46:33,774 INFO Scraping flights from TLV to ANY from 2025-08-07 to 2025-08-14...
+2025-07-20 11:46:33,774 ERROR Failed to scrape Google Flights for 2025-08-07: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 11:46:35,776 INFO Scraping flights from TLV to ANY from 2025-08-08 to 2025-08-15...
+2025-07-20 11:46:35,776 ERROR Failed to scrape Google Flights for 2025-08-08: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 11:46:37,777 INFO Scraping flights from TLV to ANY from 2025-08-09 to 2025-08-16...
+2025-07-20 11:46:37,777 ERROR Failed to scrape Google Flights for 2025-08-09: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 11:46:39,778 INFO Scraping flights from TLV to ANY from 2025-08-10 to 2025-08-17...
+2025-07-20 11:46:39,778 ERROR Failed to scrape Google Flights for 2025-08-10: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 11:46:41,780 INFO Scraping flights from TLV to ANY from 2025-08-11 to 2025-08-18...
+2025-07-20 11:46:41,780 ERROR Failed to scrape Google Flights for 2025-08-11: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 11:46:43,781 INFO Scraping flights from TLV to ANY from 2025-08-12 to 2025-08-19...
+2025-07-20 11:46:43,781 ERROR Failed to scrape Google Flights for 2025-08-12: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 11:46:45,782 INFO Scraping flights from TLV to ANY from 2025-08-13 to 2025-08-20...
+2025-07-20 11:46:45,782 ERROR Failed to scrape Google Flights for 2025-08-13: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 11:46:47,796 INFO Scraping flights from TLV to ANY from 2025-08-14 to 2025-08-21...
+2025-07-20 11:46:47,796 ERROR Failed to scrape Google Flights for 2025-08-14: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 11:46:49,797 INFO Scraping flights from TLV to ANY from 2025-08-15 to 2025-08-22...
+2025-07-20 11:46:49,797 ERROR Failed to scrape Google Flights for 2025-08-15: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 11:46:51,806 INFO Scraping flights from TLV to ANY from 2025-08-16 to 2025-08-23...
+2025-07-20 11:46:51,806 ERROR Failed to scrape Google Flights for 2025-08-16: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 11:46:53,821 INFO Scraping flights from TLV to ANY from 2025-08-17 to 2025-08-24...
+2025-07-20 11:46:53,821 ERROR Failed to scrape Google Flights for 2025-08-17: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 11:46:55,822 INFO Scraping flights from TLV to ANY from 2025-08-18 to 2025-08-25...
+2025-07-20 11:46:55,822 ERROR Failed to scrape Google Flights for 2025-08-18: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 11:46:57,823 INFO Scraping flights from TLV to ANY from 2025-08-19 to 2025-08-26...
+2025-07-20 11:46:57,823 ERROR Failed to scrape Google Flights for 2025-08-19: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 11:46:59,836 INFO Scraping flights from TLV to ANY from 2025-08-20 to 2025-08-27...
+2025-07-20 11:46:59,836 ERROR Failed to scrape Google Flights for 2025-08-20: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 11:47:01,839 INFO Scraping flights from TLV to ANY from 2025-08-21 to 2025-08-28...
+2025-07-20 11:47:01,839 ERROR Failed to scrape Google Flights for 2025-08-21: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 11:47:03,855 INFO Scraping flights from TLV to ANY from 2025-08-22 to 2025-08-29...
+2025-07-20 11:47:03,855 ERROR Failed to scrape Google Flights for 2025-08-22: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 11:47:05,860 INFO Scraping flights from TLV to ANY from 2025-08-23 to 2025-08-30...
+2025-07-20 11:47:05,860 ERROR Failed to scrape Google Flights for 2025-08-23: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 11:47:07,861 INFO Scraping flights from TLV to ANY from 2025-08-24 to 2025-08-31...
+2025-07-20 11:47:07,861 ERROR Failed to scrape Google Flights for 2025-08-24: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 11:47:09,862 INFO Scraping flights from TLV to ANY from 2025-08-25 to 2025-09-01...
+2025-07-20 11:47:09,862 ERROR Failed to scrape Google Flights for 2025-08-25: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 11:47:11,863 INFO Scraping flights from TLV to ANY from 2025-08-26 to 2025-09-02...
+2025-07-20 11:47:11,863 ERROR Failed to scrape Google Flights for 2025-08-26: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 11:47:13,865 INFO Scraping flights from TLV to ANY from 2025-08-27 to 2025-09-03...
+2025-07-20 11:47:13,865 ERROR Failed to scrape Google Flights for 2025-08-27: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 11:47:15,867 INFO Scraping flights from TLV to ANY from 2025-08-28 to 2025-09-04...
+2025-07-20 11:47:15,867 ERROR Failed to scrape Google Flights for 2025-08-28: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 11:47:17,868 INFO Scraping flights from TLV to ANY from 2025-08-29 to 2025-09-05...
+2025-07-20 11:47:17,868 ERROR Failed to scrape Google Flights for 2025-08-29: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 11:47:19,870 INFO Scraping flights from TLV to ANY from 2025-08-30 to 2025-09-06...
+2025-07-20 11:47:19,870 ERROR Failed to scrape Google Flights for 2025-08-30: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 11:47:21,871 INFO Scraping flights from TLV to ANY from 2025-08-31 to 2025-09-07...
+2025-07-20 11:47:21,871 ERROR Failed to scrape Google Flights for 2025-08-31: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 11:47:23,873 INFO No flights found matching criteria
+2025-07-20 11:47:23,873 INFO Job "main.<locals>.<lambda> (trigger: interval[0:30:00], next run at: 2025-07-20 12:16:19 IDT)" executed successfully
+2025-07-20 17:28:00,326 WARNING Run time of job "main.<locals>.<lambda> (trigger: interval[0:30:00], next run at: 2025-07-20 17:46:19 IDT)" was missed by 0:11:40.923029
+2025-07-20 17:46:19,411 INFO Running job "main.<locals>.<lambda> (trigger: interval[0:30:00], next run at: 2025-07-20 18:16:19 IDT)" (scheduled at 2025-07-20 17:46:19.403507+03:00)
+2025-07-20 17:46:21,123 INFO Chromedriver is already installed.
+2025-07-20 17:46:21,123 INFO Scraping flights from TLV to ANY from 2025-08-01 to 2025-08-08...
+2025-07-20 17:46:21,123 ERROR Failed to scrape Google Flights for 2025-08-01: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 17:46:23,126 INFO Scraping flights from TLV to ANY from 2025-08-02 to 2025-08-09...
+2025-07-20 17:46:23,126 ERROR Failed to scrape Google Flights for 2025-08-02: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 17:46:25,128 INFO Scraping flights from TLV to ANY from 2025-08-03 to 2025-08-10...
+2025-07-20 17:46:25,128 ERROR Failed to scrape Google Flights for 2025-08-03: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 17:46:27,130 INFO Scraping flights from TLV to ANY from 2025-08-04 to 2025-08-11...
+2025-07-20 17:46:27,130 ERROR Failed to scrape Google Flights for 2025-08-04: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 17:46:29,131 INFO Scraping flights from TLV to ANY from 2025-08-05 to 2025-08-12...
+2025-07-20 17:46:29,131 ERROR Failed to scrape Google Flights for 2025-08-05: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 17:46:31,132 INFO Scraping flights from TLV to ANY from 2025-08-06 to 2025-08-13...
+2025-07-20 17:46:31,132 ERROR Failed to scrape Google Flights for 2025-08-06: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 17:46:33,133 INFO Scraping flights from TLV to ANY from 2025-08-07 to 2025-08-14...
+2025-07-20 17:46:33,133 ERROR Failed to scrape Google Flights for 2025-08-07: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 17:46:35,134 INFO Scraping flights from TLV to ANY from 2025-08-08 to 2025-08-15...
+2025-07-20 17:46:35,134 ERROR Failed to scrape Google Flights for 2025-08-08: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 17:46:37,137 INFO Scraping flights from TLV to ANY from 2025-08-09 to 2025-08-16...
+2025-07-20 17:46:37,137 ERROR Failed to scrape Google Flights for 2025-08-09: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 17:46:39,141 INFO Scraping flights from TLV to ANY from 2025-08-10 to 2025-08-17...
+2025-07-20 17:46:39,141 ERROR Failed to scrape Google Flights for 2025-08-10: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 17:46:41,142 INFO Scraping flights from TLV to ANY from 2025-08-11 to 2025-08-18...
+2025-07-20 17:46:41,142 ERROR Failed to scrape Google Flights for 2025-08-11: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 17:46:43,143 INFO Scraping flights from TLV to ANY from 2025-08-12 to 2025-08-19...
+2025-07-20 17:46:43,143 ERROR Failed to scrape Google Flights for 2025-08-12: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 17:46:45,148 INFO Scraping flights from TLV to ANY from 2025-08-13 to 2025-08-20...
+2025-07-20 17:46:45,148 ERROR Failed to scrape Google Flights for 2025-08-13: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 17:46:47,149 INFO Scraping flights from TLV to ANY from 2025-08-14 to 2025-08-21...
+2025-07-20 17:46:47,149 ERROR Failed to scrape Google Flights for 2025-08-14: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 17:46:49,150 INFO Scraping flights from TLV to ANY from 2025-08-15 to 2025-08-22...
+2025-07-20 17:46:49,150 ERROR Failed to scrape Google Flights for 2025-08-15: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 17:46:51,151 INFO Scraping flights from TLV to ANY from 2025-08-16 to 2025-08-23...
+2025-07-20 17:46:51,151 ERROR Failed to scrape Google Flights for 2025-08-16: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 17:46:53,153 INFO Scraping flights from TLV to ANY from 2025-08-17 to 2025-08-24...
+2025-07-20 17:46:53,153 ERROR Failed to scrape Google Flights for 2025-08-17: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 17:46:55,156 INFO Scraping flights from TLV to ANY from 2025-08-18 to 2025-08-25...
+2025-07-20 17:46:55,156 ERROR Failed to scrape Google Flights for 2025-08-18: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 17:46:57,158 INFO Scraping flights from TLV to ANY from 2025-08-19 to 2025-08-26...
+2025-07-20 17:46:57,158 ERROR Failed to scrape Google Flights for 2025-08-19: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 17:46:59,161 INFO Scraping flights from TLV to ANY from 2025-08-20 to 2025-08-27...
+2025-07-20 17:46:59,161 ERROR Failed to scrape Google Flights for 2025-08-20: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 17:47:01,164 INFO Scraping flights from TLV to ANY from 2025-08-21 to 2025-08-28...
+2025-07-20 17:47:01,164 ERROR Failed to scrape Google Flights for 2025-08-21: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 17:47:03,166 INFO Scraping flights from TLV to ANY from 2025-08-22 to 2025-08-29...
+2025-07-20 17:47:03,166 ERROR Failed to scrape Google Flights for 2025-08-22: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 17:47:05,168 INFO Scraping flights from TLV to ANY from 2025-08-23 to 2025-08-30...
+2025-07-20 17:47:05,168 ERROR Failed to scrape Google Flights for 2025-08-23: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 17:47:07,169 INFO Scraping flights from TLV to ANY from 2025-08-24 to 2025-08-31...
+2025-07-20 17:47:07,169 ERROR Failed to scrape Google Flights for 2025-08-24: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 17:47:09,172 INFO Scraping flights from TLV to ANY from 2025-08-25 to 2025-09-01...
+2025-07-20 17:47:09,172 ERROR Failed to scrape Google Flights for 2025-08-25: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 17:47:11,173 INFO Scraping flights from TLV to ANY from 2025-08-26 to 2025-09-02...
+2025-07-20 17:47:11,173 ERROR Failed to scrape Google Flights for 2025-08-26: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 17:47:13,176 INFO Scraping flights from TLV to ANY from 2025-08-27 to 2025-09-03...
+2025-07-20 17:47:13,176 ERROR Failed to scrape Google Flights for 2025-08-27: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 17:47:15,178 INFO Scraping flights from TLV to ANY from 2025-08-28 to 2025-09-04...
+2025-07-20 17:47:15,178 ERROR Failed to scrape Google Flights for 2025-08-28: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 17:47:17,179 INFO Scraping flights from TLV to ANY from 2025-08-29 to 2025-09-05...
+2025-07-20 17:47:17,179 ERROR Failed to scrape Google Flights for 2025-08-29: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 17:47:19,181 INFO Scraping flights from TLV to ANY from 2025-08-30 to 2025-09-06...
+2025-07-20 17:47:19,181 ERROR Failed to scrape Google Flights for 2025-08-30: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 17:47:21,182 INFO Scraping flights from TLV to ANY from 2025-08-31 to 2025-09-07...
+2025-07-20 17:47:21,182 ERROR Failed to scrape Google Flights for 2025-08-31: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+Traceback (most recent call last):
+  File "d:\projects\ai_stock\flights.py", line 133, in search_google_flights
+    trip="round-trip",
+         ^^^^^^^^^^^^^^
+TypeError: _Scrape.__call__() got an unexpected keyword argument 'driver_path'
+2025-07-20 17:47:23,183 INFO No flights found matching criteria
+2025-07-20 17:47:23,183 INFO Job "main.<locals>.<lambda> (trigger: interval[0:30:00], next run at: 2025-07-20 18:16:19 IDT)" executed successfully
