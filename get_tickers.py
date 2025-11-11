@@ -1,5 +1,7 @@
 import csv, io, requests, sys, time
 
+print("Hello from Codex")
+
 # Source file for all non-Nasdaq tickers
 URL = "https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt"
 out_path = "nyse_all_with_desc.txt"
