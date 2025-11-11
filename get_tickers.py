@@ -1,6 +1,7 @@
 import csv, io, requests, sys, time
 
-print("Hello from Codex")
+if __name__ == "__main__":
+    print("Hello from Codex")
 
 # Source file for all non-Nasdaq tickers
 URL = "https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt"
